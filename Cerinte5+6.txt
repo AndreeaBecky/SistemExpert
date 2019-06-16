@@ -1,0 +1,8 @@
++ probleme :
+1- la apelarea Afisare_solutii, nu afiseaza doar solutia, ci tot traseul pe care l-a parcurs (ca la afisare fapte)
+2- la afisarea demonstratiei, la solutii multiple o arata doar pe prima
+
+Cerintele 
+5) Adaugare: Afisare_solutii in meniu, care afiseaza ultima solutie \/
+6) TABEL CU VARIABILA: PE CALCALATOR: DA / NU + SOLUTIILE CORESPUNZATOARE
+++ raspunsurile la intrebari permit existenta unui factor de certitudine ???
