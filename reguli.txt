@@ -1,0 +1,631 @@
+scop = ( joc_logic ). 
+
+r = 1
+cond [
+    # place_geometrie
+    # fan_matematica
+]
+=> vedere_in_spatiu avand fc(90).
+
+r = 2
+cond [
+    # place_geometrie
+    # !fan_matematica
+]
+=> vedere_in_spatiu avand fc(75).
+
+r = 3
+cond [
+    # !place_geometrie
+    # fan_matematica
+]
+=> !vedere_in_spatiu avand fc(65).
+
+r = 4
+cond [
+    # !place_geometrie
+    # !fan_matematica
+]
+=> !vedere_in_spatiu avand fc(40).
+
+r = 5
+cond [
+    # mod_joc >> online
+    # durata >> nedefinit
+]
+=> gamer avand fc(90).
+
+r = 6
+cond [
+    # mod_joc >> online
+    # durata >> mare
+]
+=> gamer avand fc(85).
+
+r = 7
+cond [
+    # mod_joc >> online
+    # durata >> medie
+]
+=> gamer avand fc(70).
+
+r = 8
+cond [
+    # mod_joc >> online
+    # durata >> mica
+]
+=> gamer avand fc(65).
+
+r = 9
+cond [
+    # mod_joc >> online
+    # durata >> nedefinit
+]
+=> gamer avand fc(60).
+
+r = 10
+cond [
+    # mod_joc >> online
+    # durata >> mare
+]
+=> !gamer avand fc(80).
+
+r = 11
+cond [
+    # mod_joc >> online
+    # durata >> medie
+]
+=> !gamer avand fc(70).
+
+r = 12
+cond [
+    # mod_joc >> online
+    # durata >> mica
+]
+=> !gamer avand fc(60).
+
+r = 13
+cond [
+    # mod_joc >> offline
+    # cultura_generala
+]
+=> jocuri_de_cuvinte avand fc(90).
+
+r = 14
+cond [
+    # mod_joc >> offline
+    # !cultura_generala
+]
+=> jocuri_de_cuvinte avand fc(75).
+
+r = 15
+cond [
+    # mod_joc >> online
+    # cultura_generala
+]
+=> !jocuri_de_cuvinte avand fc(80).
+
+r = 16
+cond [
+    # mod_joc >> online
+    # !cultura_generala
+]
+=> !jocuri_de_cuvinte avand fc(90).
+
+r = 17
+cond [
+    # dificultate >> mare
+    # durata >> scurta
+]
+=> atentie_scurta_durata avand fc(90).
+
+r = 18
+cond [
+    # dificultate >> mare
+    # durata >> medie
+]
+=> atentie_scurta_durata avand fc(80).
+
+r = 19
+cond [
+    # dificultate >> mare
+    # durata >> mare
+]
+=> atentie_scurta_durata avand fc(70).
+
+r = 20
+cond [
+    # dificultate >> mare
+    # durata >> nedefinit
+]
+=> atentie_scurta_durata avand fc(70).
+
+r = 21
+cond [
+    # dificultate >> medie
+    # durata >> scurta
+]
+=> atentie_scurta_durata avand fc(85).
+
+r = 22
+cond [
+    # dificultate >> medie
+    # durata >> medie
+]
+=> atentie_scurta_durata avand fc(80).
+
+r = 23
+cond [
+    # dificultate >> medie
+    # durata >> mare
+]
+=> atentie_scurta_durata avand fc(70).
+
+r = 24
+cond [
+    # dificultate >> medie
+    # durata >> nedefinit
+]
+=> atentie_scurta_durata avand fc(75).
+
+r = 25
+cond [
+    # dificultate >> mica
+    # durata >> scurta
+]
+=> !atentie_scurta_durata avand fc(70).
+
+r = 26
+cond [
+    # dificultate >> mica
+    # durata >> medie
+]
+=> !atentie_scurta_durata avand fc(75).
+
+r = 27
+cond [
+    # dificultate >> mica
+    # durata >> mare
+]
+=> !atentie_scurta_durata avand fc(80).
+
+r = 28
+cond [
+    # dificultate >> mica
+    # durata >> nedefinit
+]
+=> !atentie_scurta_durata avand fc(70).
+
+r = 29
+cond [
+    # gamer
+    # nr_participanti >> 1
+]
+=> online_multiplayer avand fc(90).
+
+r = 32
+cond [
+    # gamer
+    # nr_participanti >> 2
+]
+=> online_multiplayer avand fc(75).
+
+r = 31
+cond [
+    # !gamer
+    # nr_participanti >> 3
+]
+=> !online_multiplayer avand fc(85).
+
+r = 32
+cond [
+    # !gamer
+    # nr_participanti >> 6
+]
+=> !online_multiplayer avand fc(90).
+
+r = 33
+cond [
+    # gandire_analitica
+    # fan_matematica
+]
+=> gandire_strategica avand fc(90).
+
+r = 34
+cond [
+    # gandire_analitica
+    # !fan_matematica
+]
+=> gandire_strategica avand fc(75).
+
+r = 35
+cond [
+    # !gandire_analitica
+    # fan_matematica
+]
+=> !gandire_strategica avand fc(80).
+
+r = 36
+cond [
+    # !gandire_analitica
+    # !fan_matematica
+]
+=> !gandire_strategica avand fc(90).
+
+r = 37
+cond [
+    # dificultate >> mare
+    # durata >> scurta
+]
+=> ocazie_joc >> casual avand fc(90).  
+
+r = 38
+cond [
+    # dificultate >> mare
+    # durata >> medie
+]
+=> ocazie_joc >> casual avand fc(85).  
+
+r = 39
+cond [
+    # dificultate >> mare
+    # durata >> mare
+]
+=> ocazie_joc >> casual avand fc(70).  
+
+r = 40
+cond [
+    # dificultate >> mare
+    # durata >> nedefinit
+]
+=> ocazie_joc >> casual avand fc(70).  
+
+r = 41
+cond [
+    # dificultate >> medie
+    # durata >> scurta
+]
+=> ocazie_joc >> casual avand fc(85).  
+
+r = 42
+cond [
+    # dificultate >> medie
+    # durata >> medie
+]
+=> ocazie_joc >> casual avand fc(80).  
+
+r = 43
+cond [
+    # dificultate >> medie
+    # durata >> mare
+]
+=> ocazie_joc >> casual avand fc(70).  
+
+r = 44
+cond [
+    # dificultate >> medie
+    # durata >> nedefinit
+]
+=> ocazie_joc >> casual avand fc(75).  
+
+r = 45
+cond [
+    # dificultate >> mica
+    # durata >> scurta
+]
+=> ocazie_joc >> casual avand fc(70).  
+
+r = 46
+cond [
+    # dificultate >> mica
+    # durata >> medie
+]
+=> ocazie_joc >> casual avand fc(75).  
+
+r = 47
+cond [
+    # dificultate >> mica
+    # durata >> mare
+]
+=> ocazie_joc >> casual avand fc(80).  
+
+r = 48
+cond [
+    # dificultate >> mica
+    # durata >> nedefinit
+]
+=> ocazie_joc >> casual avand fc(70).  
+ 
+r = 49
+cond [
+    # durata >> scurta
+    # nr_participanti >> 1
+]
+=> ocazie_joc >> petrecere avand fc(60).
+
+r = 50
+cond [
+    # durata >> medie
+    # nr_participanti >> 1
+]
+=> ocazie_joc >> petrecere avand fc(65).
+
+r = 51
+cond [
+    # durata >> mare
+    # nr_participanti >> 1
+]
+=> ocazie_joc >> petrecere avand fc(70).
+
+r = 52
+cond [
+    # durata >> nedefinit
+    # nr_participanti >> 1
+]
+=> ocazie_joc >> petrecere avand fc(70).
+
+r = 53
+cond [
+    # durata >> scurta
+    # nr_participanti >> 2
+]
+=> ocazie_joc >> petrecere avand fc(65).
+
+r = 54
+cond [
+    # durata >> medie
+    # nr_participanti >> 2
+]
+=> ocazie_joc >> petrecere avand fc(70).
+
+r = 55
+cond [
+    # durata >> mare
+    # nr_participanti >> 2
+]
+=> ocazie_joc >> petrecere avand fc(75).
+
+r = 56
+cond [
+    # durata >> nedefinit
+    # nr_participanti >> 2
+]
+=> ocazie_joc >> petrecere avand fc(75).
+
+r = 57
+cond [
+    # durata >> scurta
+    # nr_participanti >> 3
+]
+=> ocazie_joc >> petrecere avand fc(75).
+
+r = 58
+cond [
+    # durata >> medie
+    # nr_participanti >> 3
+]
+=> ocazie_joc >> petrecere avand fc(80).
+
+r = 59
+cond [
+    # durata >> mare
+    # nr_participanti >> 3
+]
+=> ocazie_joc >> petrecere avand fc(85).
+
+r = 60
+cond [
+    # durata >> nedefinit
+    # nr_participanti >> 3
+]
+=> ocazie_joc >> petrecere avand fc(80).
+
+r = 61
+cond [
+    # durata >> scurta
+    # nr_participanti >> 6
+]
+=> ocazie_joc >> petrecere avand fc(80).
+
+r = 62
+cond [
+    # durata >> medie
+    # nr_participanti >> 6
+]
+=> ocazie_joc >> petrecere avand fc(85).
+
+r = 63
+cond [
+    # durata >> mare
+    # nr_participanti >> 6
+]
+=> ocazie_joc >> petrecere avand fc(90).
+
+r = 64
+cond [
+    # durata >> nedefinit
+    # nr_participanti >> 6
+]
+=> ocazie_joc >> petrecere avand fc(80).
+
+r = 65
+cond [
+    # gamer
+    # rabator
+]
+=> ocazie_joc >> zilnic avand fc(90).
+
+r = 66
+cond [
+    # gamer
+    # !rabator
+]
+=> ocazie_joc >> zilnic avand fc(80).
+
+r = 67
+cond [
+    # !gamer
+    # rabator
+]
+=> ocazie_joc >> zilnic avand fc(70).
+
+r = 68
+cond [
+    # !gamer
+    # !rabator
+]
+=> ocazie_joc >> zilnic avand fc(65).
+
+r = 69
+cond [
+    # boardgame
+]
+=> joc_logic >> Cluedo avand fc(100).
+
+r = 70
+cond [
+    # mod_joc >> online
+    # nr_participanti >> 1
+    # durata >> nedefinit 
+]
+=> joc_logic >> FlowFree avand fc(95).
+
+r = 71
+cond [
+    # gamer
+    # nr_participanti >> 1
+    # dificultate >> medie
+]
+=> joc_logic >> Portal_1 avand fc(90).
+
+r = 72
+cond [
+    # gamer
+    # nr_participanti >> 2
+    # online_multiplayer
+    # vedere_in_spatiu
+]
+=> joc_logic >> Portal_2 avand fc(90).
+
+r = 73
+cond [
+    # mod_joc >> offline
+    # nr_participanti >> 1
+    # durata >> scurta
+    # gandire_strategica
+]
+=> joc_logic >> Sudoku avand fc(90).
+
+r = 74
+cond [
+    # mod_joc >> offline
+    # durata >> mare 
+    # ocazie_joc >> petrecere
+]
+=> joc_logic >> Cluedo avand fc(90).
+
+r = 75
+cond [
+    # jocuri_de_cuvinte
+    # nr_participanti >> 6 
+    # dificultate >> mica
+]
+=> joc_logic >> TOMAPAN avand fc(90).
+
+r = 76
+cond [
+    # mod_joc >> offline
+    # nr_participanti >> 2
+    # dificultate >> mare 
+    # gandire_strategica
+]
+=> joc_logic >> Sah avand fc(90).
+
+r = 77
+cond [
+    # mod_joc >> online
+    # nr_participanti >> 3
+    # gandire_analitica
+]
+=> joc_logic >> Dark_Stories avand fc(85).
+
+r = 78
+cond [
+    # mod_joc >> online
+    # nr_participanti >> 2
+    # ocazie_joc >> casual
+	
+]
+=> joc_logic >> Keep_Talking_And_Nobody_Explodes avand fc(85).
+
+r = 79
+cond [
+    # jocuri_de_cuvinte
+    # nr_participanti >> 3 
+    # dificultate >> mica
+]
+=> joc_logic >> TOMAPAN avand fc(80).
+
+r = 80
+cond [
+    # offline
+    # nr_participanti >> 1 
+    # vedere_in_spatiu
+    # radbator
+    # dificultate >> mare 
+]
+=> joc_logic >> CubRubik avand fc(80).
+
+intrebare = (
+    	mod_joc;
+    	'Ce tip de joc preferati?'
+    	optiuni(online ## offline)
+).
+
+intrebare = ( 
+	nr_participanti;
+	'Cate persoane participa la joc?'
+	optiuni(1 ## 2 ## 3 ## 6)
+).
+
+intrebare = ( 
+	durata;
+	'Ce durata vreti sa aiba jocul? (scurta=10-30min, medie=30min-1h, mare=1-2h, nedefinit=oricat de mult)'
+	optiuni(scurta ## medie ## mare ## nedefinit)
+).
+
+intrebare = ( 
+	dificultate;
+	'Ce dificultate vreti sa aiba jocul?'
+	optiuni(mica ## medie ## mare)
+).
+
+intrebare = ( 
+	fan_matematica;
+	'Va place matematica?'
+	optiuni(da ## nu)
+).
+
+intrebare = ( 
+	boardgame;
+	'Doriti sa fie boardgame?'
+	optiuni(da ## nu)
+).
+
+intrebare = ( 
+	gandire_analitica;
+	'Aveti gandire analitica?'
+	optiuni(da ## nu)
+).
+
+intrebare = ( 
+	cultura_generala;
+	'Aveti cultura generala bogata?'
+	optiuni(da ## nu)
+).
+
+intrebare = ( 
+	place_geometrie
+	'Va place geometria?'
+	optiuni(da ## nu)
+).

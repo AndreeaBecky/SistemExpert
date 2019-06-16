@@ -1,0 +1,93 @@
+### Cluedo ### cale_relativa_imagine ###
+descriere = {'Descrierea de la solutie'}
+proprietati:
+### {prop1 ~ val1}
+
+/////////////////////////////////////////.
+
+
+### FlowFree ### cale_relativa_imagine ###
+descriere = { 'Descrierea de la solutie' }
+proprietati:
+### {prop1 ~ val1}
+### {prop2 ~ val2}
+### {prop3 ~ val3}
+
+/////////////////////////////////////////.
+
+
+### Portal_1 ### cale_relativa_imagine ###
+descriere = { 'Descrierea de la solutie' }
+proprietati:
+### {prop1 ~ val1}
+### {prop2 ~ val2}
+### {prop3 ~ val3}
+
+/////////////////////////////////////////.
+
+### Portal_2 ### cale_relativa_imagine ###
+descriere = { 'Descrierea de la solutie' }
+proprietati:
+### {prop1 ~ val1}
+### {prop2 ~ val2}
+### {prop3 ~ val3}
+### {prop4 ~ val4}
+
+/////////////////////////////////////////.
+
+### Sudoku ### cale_relativa_imagine ###
+descriere = { 'Descrierea de la solutie' }
+proprietati:
+### {prop1 ~ val1}
+### {prop2 ~ val2}
+### {prop3 ~ val3}
+### {prop4 ~ val4}
+
+/////////////////////////////////////////.
+
+
+### TOMAPAN ### cale_relativa_imagine ###
+descriere = { 'Descrierea de la solutie' }
+proprietati:
+### {prop1 ~ val1}
+### {prop2 ~ val2}
+### {prop3 ~ val3}
+
+/////////////////////////////////////////.
+
+### Sah ### cale_relativa_imagine ###
+descriere = { 'Descrierea de la solutie' }
+proprietati:
+### {prop1 ~ val1}
+### {prop2 ~ val2}
+### {prop3 ~ val3}
+
+/////////////////////////////////////////.
+
+### Dark_Stories ### cale_relativa_imagine ###
+descriere = { 'Descrierea de la solutie' }
+proprietati:
+### {prop1 ~ val1}
+### {prop2 ~ val2}
+### {prop3 ~ val3}
+
+/////////////////////////////////////////.
+
+### Keep_Talking_And_Nobody_Explodes ### cale_relativa_imagine ###
+descriere = { 'Descrierea de la solutie' }
+proprietati:
+### {prop1 ~ val1}
+### {prop2 ~ val2}
+### {prop3 ~ val3}
+
+/////////////////////////////////////////.
+
+### CubRubik ### cale_relativa_imagine ###
+descriere = { 'Descrierea de la solutie' }
+proprietati:
+### {prop1 ~ val1}
+### {prop2 ~ val2}
+### {prop3 ~ val3}
+### {prop4 ~ val4}
+### {prop5 ~ val5}
+/////////////////////////////////////////.
